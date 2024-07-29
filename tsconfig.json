@@ -1,3 +1,16 @@
+// {
+//   "compilerOptions": {
+//     "forceConsistentCasingInFileNames": true,
+//     "jsx": "react",
+//     "target": "ES2020",
+//     "module": "ESNext",
+//     "declaration": true,
+//     "declarationDir": "dist",
+//     "strict": true
+//   }
+// }
+
+
 {
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
@@ -6,6 +19,11 @@
     "module": "ESNext",
     "declaration": true,
     "declarationDir": "dist",
-    "strict": true
-  }
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node"
+  },
+  "include": ["src"]
 }
