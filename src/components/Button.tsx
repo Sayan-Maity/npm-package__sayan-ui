@@ -12,7 +12,7 @@ const Button = ({ children, onClick, className, style }: ButtonProps) => {
     return (
         <button
             onClick={onClick}
-            style={{backgroundColor: "red", fontSize: "15px", padding: "1rem 2rem", ...style}}
+            style={{ backgroundColor: "#03b4ff", fontSize: "15px", padding: "1rem 2rem", cursor: "pointer", borderRadius: "10px", outline: "none", border: "transparent", ...style }}
             className=""
         >
             {children}
